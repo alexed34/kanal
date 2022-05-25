@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Данные</h2>
+<table border="0" cellspacing="5" cellpadding="5">
+    <tr><td>№</td><td>Номер заказа</td><td>Цена в долларах</td><td>Дата поставки</td><td>Цена в рублях</td></tr>
+{% for item in dates%}
+        <tr><td>{{item.num}}</td><td> {{item.order_num}}</td><td>{{item.cost_usd}}</td><td>{{item.delivery_time}}</td><td>{{item.cost_rub}}</td></tr>
+    {%endfor %}
+</table>
+</body>
+</html>
