@@ -42,7 +42,7 @@ def check_delivery_date(datas_googlesheet: List) -> None:
         if order[1] < date_now:
             send_telegram(f"Дата прошла, номер заказа {order[1]}")
             logging.warning('telegran')
-            break
+            
 
 
 
