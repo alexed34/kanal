@@ -1,4 +1,4 @@
-###Скрипт обновления базы данных из гугл таблицы.
+### Скрипт обновления базы данных из гугл таблицы.
 
 ссылка на [Google таблицу](https://docs.google.com/spreadsheets/d/1LXvBscywIJqkq1NhTZf7ajLQwBpC9Gqq46jqI8z_TzM/edit#gid=0), права для ` irbispro10@gmail.com` открыты
 
